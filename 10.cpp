@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cmath>
 const int h1 = 10;
 const int h2 = 0;
 int main()
