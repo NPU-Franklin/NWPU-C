@@ -24,7 +24,7 @@ void SelectionSort(int A[], int s, int m)
 {
 	int s_s = s;
 	int s_m, temp, num = 0;
-	for (s_s; s_s < m + 1; s_s++)
+	for (s_s; s_s < m; s_s++)
 	{
 		temp = A[s_s];
 		s_m = s_s;
