@@ -24,10 +24,10 @@ void SelectionSort(int A[], int s, int m)
 {
 	int s_s = s;
 	int s_m, temp, num = 0;
-	for (s_s; s_s < m; s_s++)
+	for (s_s; s_s < m + 1; s_s++)
 	{
 		temp = A[s_s];
-		s_m = s_s + 1;
+		s_m = s_s;
 		for (s_m; s_m < m + 1; s_m++)
 		{
 			if (A[s_m] >= temp)
